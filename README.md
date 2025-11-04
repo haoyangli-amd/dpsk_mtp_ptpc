@@ -1,16 +1,16 @@
-# quantize deepseekr1 with mtp by llm_compressor (PTPC)
+# quantize deepseekr1 with mtp by amd-quark (PTPC)
 
 ## Installation
 
 To get started, install:
 
 ```bash
-pip install llmcompressor
+pip install amd-quark
 ```
 
 ## Quickstart
 
-### 1) Applying changes to transformers locally (I'm using transformers==4.54.0)
+### 1) Applying changes to transformers locally (using transformers==4.54.0)
 
 ```bash
 diff modeling_deepseek_v3.py modeling_deepseek_v3_modified.py
